@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Lloyd acabou de chegar em Los Angeles e não sabe para onde vai, na sua frente tem uma placa indicando o sentido de dois pontos turisticos. Qual você escolhe para ele ir?",
+        enunciado: "Você acabou de chegar em Los Angeles e não sabe para onde vai, na sua frente tem uma placa indicando o sentido de dois pontos turísticos. Qual você escolhe para ir?",
         alternativas: [
             {
                 texto: "Calçada da Fama",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Na Calçada de Fama você viu o nome de muitos artistas que é fã."
             },
             {
                 texto: "Museu de Arte do Condado de Los Angeles",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Viu muitas obras de arte, e tirou ótimas fotos por lá."
             }
         ]
     },
     {
-        enunciado: "Depois de conhecer o lugar, ele decide ir comer em algum restalrante conhecido?",
+        enunciado: "Depois de conhecer o lugar, você decide ir comer em algum restaurante conhecido. Qual escolher?",
         alternativas: [
             {
-                texto: "Craig's em West Hollywood",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "The Apple Pan",
+                afirmacao: "No The Apple Pan, você pediu o clássico hambúrguer da casa, batata frita, refrigerante e o sucesso da casa, a torta de maçã."
             },
             {
-                texto: "Nobu Malibu",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Pink's Hot Dogs",
+                afirmacao: "No Pink's Hot Dogs, você matou sua fome com um clássico Hot Dog, batata frita e refrigerante."
             }
         ]
     },
     {
-        enunciado: "Agora Lloyd quer praticar algum esporte. Qual esporte ele ira praticar?",
+        enunciado: "Agora você quer praticar algum esporte. Qual esporte você irá praticar?",
         alternativas: [
             {
                 texto: "Andar de skate na pista Venice Beach Skatepark",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: "Uma tarde em Venice Beach Skatepark, onde andou de skate mandando várias manobras, conheceu gente nova e ainda destravou manobras inéditas."
             },
             {
                 texto: "Surfar em Malibu",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "Uma tarde em Malibu, surfando nas ondas douradas e conhecendo pessoas incríveis na praia."
             }
         ]
     },
     {
-        enunciado: "Ele ira assistir o por do sol em?",
+        enunciado: "Você ira assistir o por do sol em?",
         alternativas: [
             {
                 texto: "Píer de Santa Mônica",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: "Já o pôr do sol no Píer de Santa Mônica, entre a roda-gigante iluminada, o parque de diversões, as lojinhas de souvenirs e os shows de mágica e música, a energia da praia ganha um encanto único."
             },
             {
                 texto: "Observatório Griffith",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "No pôr do sol no Observatório Griffith, você desfrutou de vistas espetaculares de Los Angeles, como o famoso letreiro de Hollywood."
             }
         ]
     },
     {
-        enunciado: "Agora esta de noite e Lloyd esta em dúvida onde vai?",
+        enunciado: "Agora está de noite e você está em dúvida onde vai?",
         alternativas: [
             {
                 texto: "Show do Metallica",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "Viver a energia de um show do Metallica, com explosões de luz, fogo e milhares de vozes cantando juntas, foi uma experiência inesquecível."
             },
             {
                 texto: "Jogo dos Los Angeles Lakers",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "Em um jogo eletrizante entre Los Angeles Lakers e Boston Celtics, LeBron James jogou sua camisa autografada para a torcida e você conseguiu pegá-la, tornando a noite inesquecível."
             }
         ]
     },
@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Resumo do dia...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
